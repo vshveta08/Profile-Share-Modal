@@ -1,9 +1,9 @@
 # Profile Share Modal
 
-This Profile Share Modal made by using HTML, CSS and JS.
+This Profile Share Modal web app made by using HTML, CSS and JS.
 
 Interface of Profile Share Modal ->
 
-![Screenshot (88)](https://user-images.githubusercontent.com/109027067/233073853-70f7e6ad-20d8-475a-879d-b54af59caef0.png)
+![Screenshot (91)](https://user-images.githubusercontent.com/109027067/233074384-b7f6ff78-7dae-4f4c-9e03-ef57adc3cbd8.png)
 
-![Screenshot (89)](https://user-images.githubusercontent.com/109027067/233073869-e0b4050d-3c30-4b9d-a5bc-7d68dfccf729.png)
+![Screenshot (92)](https://user-images.githubusercontent.com/109027067/233074425-1637b904-cbfc-4b68-94ab-70d665306803.png)
