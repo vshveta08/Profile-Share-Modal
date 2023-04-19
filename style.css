@@ -216,8 +216,6 @@ body {
 }
 
 .icons .icon i {
-    /* height: 40px; */
-    /* border: 1px solid white; */
     font-size: 27px;
 }
 
@@ -271,24 +269,45 @@ body {
     color: #fff;
 }
 
-
-.active {
-    scale: 1;
+/* media query for container */
+@media (max-width: 850px){
+    .container {        
+        padding: 40px 15px;        
+        width:370px;
+    }
+}
+@media (max-width: 500px){
+    .container {        
+        padding: 30px 15px;        
+        width:350px;      
+        gap: 20px;
+    }
 }
 
-.overlay {
-    position: fixed;
-    background-color: #5f5f5f83;
-    top: 0;
-    opacity: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    pointer-events: none;
-    transition: 0.5s ease-in-out;
+/* media query for modal */
+@media (max-width: 850px){
+    #modal {
+        width: 550px;
+        /* gap: 20px; */
+        padding: 17px 30px;
+    }
 }
-
-.overlayactive {
-    opacity: 1;
-    pointer-events: initial;
+@media (max-width: 500px){
+    #modal {
+        width: 450px;
+        gap: 10px;
+        padding: 17px 25px;
+    }
+    .head h1{
+        font-size: 1.8rem;
+    }
+    .icons .icon {
+        width: 50px;
+        height: 50px;       
+        padding: 5px;        
+    }
+    
+    .icons .icon i {
+        font-size: 25px;
+    }
 }
