@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Modal App</title>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div class="circle" id="firstCircle"></div>
+        <div class="circle" id="secondCircle"></div>
+
+        <div class="container">
+            <img id="myImg" src="myImg.jpeg" alt="">
+            <h2>Shveta Verma</h2>
+            <h4>Web Developer</h4>
+
+            <div class="buttons">     
+                <button onclick="openModal()" id="shareBtn"><img src="share.png" alt=""> Share My Profile</button>
+                <button>Follow Me</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal component -->
+    <div id="modal">
+        <div class="head">
+            <h1>Share My Profile</h1>
+            <div class="cut">
+                <i onclick="closeModal()" id="close" class="fa-solid fa-xmark close"></i>
+            </div>
+        </div>
+
+        <div class="main">
+            <h3>Share this via</h3>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/" class="icon" id="facebook" target=”_blank”>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/" class="icon" id="twitter" target=”_blank”>
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/accounts/login/" class="icon" id="instagram" target=”_blank”>
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.whatsapp.com/" class="icon" id="whatsapp" target=”_blank”>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://web.telegram.org/k/" class="icon" id="telegram" target=”_blank”>
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- import library for icons of modal -->
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
